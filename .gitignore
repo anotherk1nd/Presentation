@@ -1,0 +1,9 @@
+*.log
+*.aux
+*.nav
+*.out
+*.snm
+*.gz
+*.toc
+*.DS_Store
+*~lock*
