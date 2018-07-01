@@ -92,7 +92,7 @@
 	\begin{minipage}{0.45\textwidth}
 		\centering
 		\includegraphics[width=0.9\textwidth]{figures/ALLMOVIESLONDONFULL} % first figure itself
-		\caption{Full FIlm Showings 1 Day}
+		\caption{Full Film Showings 1 Day}
 	\end{minipage}\hfill
 	\begin{minipage}{0.45\textwidth}
 		\centering
@@ -110,6 +110,16 @@
 
 %---------------------------------------------------------------------------------------------------------------------
 
+\begin{frame}{Aim}
+\begin{itemize}
+	\item Develop a method to watch subtitles on a phone
+	\item Problem: Synchronising the subtitles to the film
+	\item Therefore, must identify the time in the film based on audio signals
+\end{itemize}
+\end{frame}
+
+%---------------------------------------------------------------------------------------------------------------------
+
 \begin{frame}{Prior Knowledge}
 \begin{figure}
 	\centering
@@ -121,7 +131,25 @@
 \end{itemize}
 \end{frame}
 
+\note{
+	\item Who here has pirated a film?
+	\item Used subtitles?
+	\item srt
+}
+
 %---------------------------------------------------------------------------------------------------------------------
+
+\begin{frame}{General Method}
+\begin{itemize}
+	\item Record audio, compressed using MP3
+	\item Split signal into frames of duration 25ms - consider signal constant over this period
+	\item Extract Mel Frequency Cepstral Coefficients (MFCC's)
+	\item Use MFCC's as predictive feature of whether speech is present in a frame or not
+	\item Match these predictions to the truth array, defined by a subtitle file
+\end{itemize}
+\end{frame}
+%---------------------------------------------------------------------------------------------------------------------
+
 
 \begin{frame}{Prior Knowledge}
 \begin{itemize}
@@ -133,10 +161,14 @@
 %---------------------------------------------------------------------------------------------------------------------
 
 \begin{frame}{MP3 Compression}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{"figures/Frequency Response from Perceptual Coding of Digital Audio NOCAPTION"}
+	\caption{Frequency respons of human hearing}
+\end{figure}
 \begin{itemize}
-	\item MPEG-III (mp3) Applies a load of compression stuff
-	\item Drops frequencies outside of human hearing
-	\item Other stuff
+	\item Absolute threshold of hearing
+	
 \end{itemize}
 \end{frame}
 
