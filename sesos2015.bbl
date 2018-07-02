@@ -1,0 +1,150 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{catalunya_2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CUPd}{%
+         family={Catalunya},
+         familyi={C\bibinitperiod},
+         given={Universitat Politècnica\bibnamedelima de},
+         giveni={U\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CUPd1}
+    \strng{fullhash}{CUPd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Recurrent Neural Networks II (D2L3 Deep Learning for Speech
+  and Langu...}
+    \verb{url}
+    \verb https://www.slideshare.net/xavigiro/recurrent-neural-networks-2-d2l3-
+    \verb deep-learning-for-speech-and-language-upc-2017
+    \endverb
+    \field{journaltitle}{LinkedIn SlideShare}
+    \field{year}{2017}
+  \endentry
+
+  \entry{mfcc_steps}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KDSP}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={D.\bibnamedelima S.\bibnamedelima Pavan},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KDSP1}
+    \strng{fullhash}{KDSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{eprint}
+    \verb 1507.04019
+    \endverb
+    \field{title}{Feature Normalisation for Robust Speech Recognition}
+    \verb{url}
+    \verb http://arxiv.org/abs/1507.04019
+    \endverb
+    \field{volume}{abs/1507.04019}
+    \field{journaltitle}{CoRR}
+    \field{eprinttype}{arXiv}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Painter2000}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PTED}{%
+         family={Painter},
+         familyi={P\bibinitperiod},
+         given={T\bibnamedelima E\bibnamedelima D},
+         giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Member},
+         familyi={M\bibinitperiod},
+         given={Student},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Spanias},
+         familyi={S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Member},
+         familyi={M\bibinitperiod},
+         given={Senior},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{aac,ac-2,ac-3,advanced audio coding,atrac,audio coding,audio coding
+  standards,audio signal,broadcast audio,dar,data
+  compression,dba,digital,digital audio radio,filter banks,hdtv,high-definition
+  tv,mpeg,processing}
+    \strng{namehash}{PTED+1}
+    \strng{fullhash}{PTEDMSSAMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{number}{4}
+    \field{title}{{Perceptual Coding of Digital Audio}}
+    \field{volume}{88}
+    \verb{file}
+    \verb :Users/joshfenech/Documents/Linux Documents Backup May/Documents/Shar
+    \verb ed Documents/MLDM/Project/Papers/mp3andotherstuff.pdf:pdf
+    \endverb
+    \field{year}{2000}
+  \endentry
+
+  \entry{Sabater_2017}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Sabater},
+         familyi={S\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Machine Learnings}%
+    }
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Automatic Subtitle Synchronization – Machine Learnings}
+    \verb{url}
+    \verb https://machinelearnings.co/automatic-subtitle-synchronization-e188a9
+    \verb 275617
+    \endverb
+    \field{journaltitle}{Machine Learnings}
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput
